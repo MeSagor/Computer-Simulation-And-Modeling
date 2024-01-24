@@ -1,0 +1,47 @@
+{
+    "activities": [
+      {
+        "id":0,
+        "name": "START",
+        "duration": 0,
+        "predecessors": []
+      },
+      {
+        "id":1,
+        "name": "A",
+        "duration": 2,
+        "predecessors": [0]
+      },
+      {
+        "id":2,
+        "name": "B",
+        "duration": 3,
+        "predecessors": [1]
+      },
+      {
+        "id":3,
+        "name": "C",
+        "duration": 1,
+        "predecessors": [1]
+      },
+      {
+        "id":4,
+        "name": "D",
+        "duration": 2,
+        "predecessors": [2, 3]
+      },
+      {
+        "id":5,
+        "name": "E",
+        "duration": 3,
+        "predecessors": [4]
+      },
+      {
+        "id":6,
+        "name": "FINISH",
+        "duration": 0,
+        "predecessors": [5, 3]
+      }
+    ]
+  }
+  
